@@ -40,7 +40,7 @@ export function Home(){
 
             {
                 mySkills.map(skill => (
-                   <SkillCard/>
+                   <SkillCard skill={skill}/>
                 ))
             }
         </View>
